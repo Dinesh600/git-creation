@@ -1,0 +1,25 @@
+Git Repository Creating and pushing to github:
+
+$  git init "test"
+"Initialized empty Git repository in /root/github/test/.git/"
+test is directory, now go to test directory and create your project file.
+after that add project file to Git repository of yopur local system
+
+$ git add "filetxt"
+
+$ git status
+ " to see the tracking of the files added in the repository "
+<----On branch master
+No commits yet
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   filetxt ---->
+$ git commit -m " How to create git repo and push it to github "
+  " to see the meeasage of git repo purpose "
+
+$ git remote add origin <REMOTE_URL> <-- give the url of your github -->
+  <-- create a new repository in your git hub take that url -->
+
+$ git push -u origin master <-- here if your repository is in master branch give master or in main give main-->
+
+After performing above steps your repository placed in github from local system
